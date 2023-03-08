@@ -10,13 +10,7 @@ export interface Todo {
 }
 
 function App() {
-  const [todos, setTodos] = useState<Todo[]>([
-    {
-      id: 1,
-      text: "Aprender React",
-      completed: false,
-    },
-  ]);
+  const [todos, setTodos] = useState<Todo[]>([]);
 
   const addTodo = (todo: Todo) => {
     setTodos([...todos, todo]);
