@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  background: var(--gray-700);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 36px;
+  margin-right: var(--sm);
+}
+
+.header h1:first-of-type {
+  color: var(--blue);
+}
+.header h1:last-of-type {
+  color: var(--purpleDark);
+}

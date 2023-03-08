@@ -1,0 +1,32 @@
+.form {
+  margin-top: calc(0px - 1.5rem);
+  display: flex;
+  justify-content: center;
+  gap: var(--sm);
+}
+
+.form > * {
+  border-radius: 8px;
+  border: none;
+}
+
+.form input[type="text"] {
+  width: 100%;
+  padding-left: 1rem;
+  background: var(--gray-500);
+}
+.form input[type="text"] > placeholder {
+  color: var(--gray-300);
+}
+
+.form button[type="submit"] {
+  max-whidt: 90px;
+  background: var(--blueDark);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sm);
+  gap: 0.1rem;
+  cursor: pointer;
+}
